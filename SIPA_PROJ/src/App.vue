@@ -23,7 +23,7 @@
 <script>
 
 import Header from './components/Header.vue'
-
+import Box from './components/Box.vue'
 
 export default {
   name: 'app',
