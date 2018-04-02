@@ -17,10 +17,9 @@
 		<Box class="small_img" image="https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/smart_device_3/H2x1_SmartDevice_SuperMarioRun_image1250w.jpg" />
       </div>
     </div>
-
   </div>
 </template>
-
+  
 <script>
 
 import Header from './components/Header.vue'
@@ -30,6 +29,7 @@ export default {
   name: 'app',
   components: {
     'Header': Header,    
+	'Box' : Box
   }
 }
 </script>
