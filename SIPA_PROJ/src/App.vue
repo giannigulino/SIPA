@@ -12,14 +12,14 @@
       </div>
 
       <div class="row">
-		<Box class="small_img" image="https://cdn02.nintendo-europe.com/media/images/10_share_images/country_support_5/it_24/SI_Brochure_Nintendo_image1250w.jpg" />
-		<Box class="small_img" image="https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_KirbyStarAllies_image1250w.jpg" />
-		<Box class="small_img" image="https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/smart_device_3/H2x1_SmartDevice_SuperMarioRun_image1250w.jpg" />
+        <Box class="small_img" image="https://cdn02.nintendo-europe.com/media/images/10_share_images/country_support_5/it_24/SI_Brochure_Nintendo_image1250w.jpg" />
+        <Box class="small_img" image="https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_KirbyStarAllies_image1250w.jpg" />
+        <Box class="small_img" image="https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/smart_device_3/H2x1_SmartDevice_SuperMarioRun_image1250w.jpg" />
       </div>
     </div>
   </div>
 </template>
-  
+
 <script>
 
 import Header from './components/Header.vue'
@@ -28,8 +28,8 @@ import Box from './components/Box.vue'
 export default {
   name: 'app',
   components: {
-    'Header': Header,    
-	'Box' : Box
+    'Header': Header,
+    'Box': Box
   }
 }
 </script>
@@ -59,7 +59,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

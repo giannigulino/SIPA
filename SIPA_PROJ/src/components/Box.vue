@@ -8,18 +8,9 @@
 export default {
   name: 'Box',
   props: {
-     image: String
-  }    
-  /*
-  ,computed: {  
-        image: function() {
-            return "https://placeimg.com/200/70/tech?" + Math.random();
-        }		
-    }	
-	*/
-	
+    image: String
+  }
 }
-
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -34,12 +25,12 @@ export default {
     justify-content: center;
     font-size: 1em;
   }
-  
+
   .box img{
-	max-height:200px;
+      max-height:200px;
   }
-  
+
   .small_img img{
-	max-height:140px;
+      max-height:140px;
   }
 </style>
