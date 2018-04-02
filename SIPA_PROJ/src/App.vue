@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-
     <Header/>
-	<div>TEST</div>
     <div class="wrapper-grid">
       <div class="row">
         <Box image="https://cdn02.nintendo-europe.com/media/images/10_share_images/systems_11/nintendo_switch_1/nintendo_labo/H2x1_Labo_Generic_itIT_image800w.jpg" />
@@ -31,7 +29,7 @@ import Box from './components/Box.vue'
 export default {
   name: 'app',
   components: {
- 
+    'Header': Header,    
   }
 }
 </script>
