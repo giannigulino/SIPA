@@ -13,12 +13,16 @@
 </template>
 
 <script>
-
+import Logo from '../components/Logo.vue'
+import Menu from '../components/Menu.vue'
+import User from '../components/User.vue'
 
 export default {
   name: 'Header',
   components: {
-
+    'Menu': Menu,
+    'Logo': Logo,
+    'User': User
   }
 }
 </script>
