@@ -30,7 +30,10 @@ export default {
       max-height:200px;
   }
 
-  .small_img img{
-      max-height:140px;
+  .box img{
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
   }
 </style>
